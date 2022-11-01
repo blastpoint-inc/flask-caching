@@ -8,8 +8,10 @@ attrs==21.2.0
     # via pytest
 click==8.0.1
     # via flask
+exceptiongroup==1.0.0
+    # via pytest
 flask==2.0.1
-    # via -r requirements/tests.in
+    # via -r tests.in
 iniconfig==1.1.1
     # via pytest
 itsdangerous==2.0.1
@@ -24,21 +26,19 @@ pluggy==1.0.0
     # via pytest
 psutil==5.8.0
     # via pytest-xprocess
-py==1.10.0
-    # via pytest
 pylibmc==1.6.1
-    # via -r requirements/tests.in
+    # via -r tests.in
 pyparsing==2.4.7
     # via packaging
-pytest==6.2.5
+pytest==7.2.0
     # via
-    #   -r requirements/tests.in
+    #   -r tests.in
     #   pytest-xprocess
 pytest-xprocess==0.18.1
-    # via -r requirements/tests.in
+    # via -r tests.in
 redis==3.5.3
-    # via -r requirements/tests.in
-toml==0.10.2
+    # via -r tests.in
+tomli==2.0.1
     # via pytest
 werkzeug==2.0.1
     # via flask
